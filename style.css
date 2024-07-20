@@ -1,0 +1,104 @@
+@font-face {
+    font-family: alata;
+    src: url(fonts/Alata-Regular.ttf);
+}
+
+body {
+    font-family: alata;
+    font-size: 13px;
+    background-color: #2E3D16;
+}
+
+form {
+    position: absolute;
+    width: 331px;
+    height: 393px;
+    left: calc(50% - 331px/2 - 1.5px);
+    top: calc(50% - 393px/2 - 35.5px);
+    box-shadow: 5px 5px 0px;
+
+    background: #FF4D00;
+    border-radius: 23px;
+}
+
+#coruja {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 20px;
+    height: 116px;
+}
+
+#coruja2 {
+    position: relative;
+    top: 23px;
+    left: 3px;
+    padding-left: 100px;
+    height: 116px;
+    opacity: 30%;
+    
+}
+
+#email {
+    position: absolute;
+    width: 267px;
+    height: 37px;
+    right: 30px;
+    top: 160px;
+    border-style: none;
+    
+    background: #ABDD8D;
+    border-radius: 4px;
+}
+
+#nameEmail {
+    color: rgb(212, 191, 150);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#password {
+    position: absolute;
+    width: 267px;
+    height: 37px;
+    right: 30px;
+    top: 220px;
+    border-style: none;
+
+    background: #ABDD8D;
+    border-radius: 4px;
+}
+
+#namePassword {
+    color: rgb(212, 191, 150);
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#confirm {
+    position: absolute;
+    width: 267px;
+    height: 37px;
+    right: 30px;
+    top: 280px;
+    border-style: none;
+    
+    background: #ABDD8D;
+    border-radius: 4px;
+}
+
+#nameConfirm {
+    color: rgb(212, 191, 150);
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-block-end: 60px;
+}
+
+#register {
+    background-color: #AE8EF2;
+    margin-left: 80px;
+    padding-inline: 60px;
+    padding-block: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}

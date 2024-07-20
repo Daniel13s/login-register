@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl | Projetos</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="script" href="index.html">
+</head>
+<body>
+    <form>
+        <img id="coruja" src="images/coruja.png">
+        <img id="coruja2" src="images/coruja.png">
+
+        <p id="nameEmail">Email:</p>
+        <input id="email1" type="text">
+
+        <p id="namePassword1">Password:</p><div id="foda"></div>
+        <input id="password1" type="password">
+
+        <input id="login" type="submit" onclick="logar(); return false" value="Login">
+    </form>
+
+    <script type="module">
+        import variaveis from 'index.html'
+        function logar(){
+            var email1 = document.querySelector('#email1').value;
+            var password1 = document.querySelector('#password1').value;
+            
+            if(email1 == email && password1 == confirm){
+                window.alert('Sucesso')
+            }
+        }
+    </script>
+</body>
+</html>
