@@ -21,13 +21,12 @@
         <input id="login" type="submit" onclick="logar(); return false" value="Login">
     </form>
 
-    <script type="module">
-        import variaveis from 'index.html'
+    <script>
         function logar(){
             var email1 = document.querySelector('#email1').value;
             var password1 = document.querySelector('#password1').value;
             
-            if(email1 == email && password1 == confirm){
+            if(email1 == "Daniel" && password1 == "daniel"){
                 window.alert('Sucesso')
             }
         }
